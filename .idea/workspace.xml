@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="812dd497-ac42-4fc7-aedf-7fe239fcfb6a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1djJMS6T1sEZRaSiCHQ5QvCApgs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="faster_rcnn_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fasterrcnn_resnet50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="faster_rcnn_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fasterrcnn_resnet50.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fasterrcnn_resnet50" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="812dd497-ac42-4fc7-aedf-7fe239fcfb6a" name="Default Changelist" comment="" />
+      <created>1592932520689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592932520689</updated>
+      <workItem from="1592932521747" duration="340000" />
+      <workItem from="1592933128830" duration="3234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="350" key="#Notifications" timestamp="1592933142568">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="651" y="350" key="#Notifications/0.0.1536.960@0.0.1536.960" timestamp="1592933142568" />
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592937003230">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1592937003230" />
+    <state width="1494" height="258" key="GridCell.Tab.0.bottom" timestamp="1592937353613">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="258" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1592937353613" />
+    <state width="1494" height="258" key="GridCell.Tab.0.center" timestamp="1592937353612">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="258" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1592937353612" />
+    <state width="1494" height="258" key="GridCell.Tab.0.left" timestamp="1592937353611">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="258" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1592937353611" />
+    <state width="1494" height="258" key="GridCell.Tab.0.right" timestamp="1592937353613">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="258" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1592937353613" />
+    <state x="269" y="119" key="SettingsEditor" timestamp="1592936973672">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1592936973672" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/faster_rcnn_test$fasterrcnn_resnet50.coverage" NAME="fasterrcnn_resnet50 Coverage Results" MODIFIED="1592937542266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
