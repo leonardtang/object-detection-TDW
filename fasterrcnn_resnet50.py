@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 from PIL import Image
 import matplotlib.pyplot as plt
 import torch
@@ -7,6 +7,7 @@ import torchvision
 import torch
 import numpy as np
 import cv2
+import os
 
 # Using pre-trained parameters: eval mode immediately
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
@@ -56,7 +57,7 @@ def get_prediction(img_path, threshold):
     return pred_boxes, pred_class
 
 
-def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_th=3):
+def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=1, text_th=2):
     """
       object_detection_api
         parameters:
@@ -73,12 +74,13 @@ def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_t
 
     # Returns bounding boxes of each object instance; and the predicted class each belongs to
     boxes, pred_cls = get_prediction(img_path, threshold)
-    img = cv2.imread(img_path)
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = plt.imread(img_path)  # Plt seems to be more robust than cv2.imread
+    # img = cv2.imread(img_path, 1)
+    # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     for i in range(len(boxes)):
         print(boxes[i][0], "\t", boxes[i][1])
-        cv2.rectangle(img, boxes[i][0], boxes[i][1], color=(0, 255, 0), thickness=rect_th)
-        cv2.putText(img, pred_cls[i], boxes[i][0], cv2.FONT_HERSHEY_SIMPLEX, text_size, (0, 255, 0), thickness=text_th)
+        cv2.rectangle(img, (int(boxes[i][0][0]), int(boxes[i][0][1])), (int(boxes[i][1][0]), int(boxes[i][1][1])), color=(0, 255, 0), thickness=rect_th)
+        cv2.putText(img, pred_cls[i], (int(boxes[i][0][0]), int(boxes[i][0][1])), cv2.FONT_HERSHEY_SIMPLEX, text_size, (0, 255, 0), thickness=text_th)
     # plt.figure(figsize=(20, 30))
     plt.imshow(img)
     plt.xticks([])
@@ -87,15 +89,28 @@ def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=3, text_t
 
 
 if __name__ == "__main__":
-    object_detection_api('./people.jpg', threshold=0.8)
-    dir_name = "/Users/leonard/Desktop/coco/images/val2014"
-    COCO_dir = os.fsencode(dir_name)
+    # object_detection_api('./people.jpg', threshold=0.8)
 
-    for file in os.listdir(COCO_dir):
-        filename = os.fsdecode(file)
-        if filename.endswith(".jpg"):
-            object_detection_api(os.path.join(dir_name, filename), threshold=0.8)
-            continue
-        else:
-            continue
+    # # COCO val2014 -- should be extremely accurate
+    # dir_name = "/Users/leonard/Desktop/coco/images/val2014"
+    # COCO_dir = os.fsencode(dir_name)
+    # for file in os.listdir(COCO_dir):
+    #     filename = os.fsdecode(file)
+    #     if filename.endswith(".jpg"):
+    #         print(os.path.join(dir_name, filename))
+    #         object_detection_api(os.path.join(dir_name, filename), threshold=0.8)
+    #         continue
+    #     else:
+    #         continue
 
+    # TDW initial 50 scenes
+    dir_name = "/Users/leonard/Desktop/coco/images/to_replicate/finished_replicating"
+    for path in Path(dir_name).rglob('*.png'):
+        print(path)
+        object_detection_api(path, threshold=0.7)
+
+    # with os.scandir(dir_name) as it:
+    #     for entry in it:
+    #         print(entry)
+    #         if entry.name.endswith(".png") and entry.is_file():
+    #             object_detection_api(os.path.join(dir_name, entry), threshold=0.8)
