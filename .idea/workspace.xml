@@ -23,6 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,6 +32,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tdw" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -59,6 +65,9 @@
       <module name="faster_rcnn_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -91,7 +100,10 @@
       <option name="presentableId" value="Default" />
       <updated>1592932520689</updated>
       <workItem from="1592932521747" duration="340000" />
-      <workItem from="1592933128830" duration="8222000" />
+      <workItem from="1592933128830" duration="8715000" />
+      <workItem from="1593103998538" duration="3316000" />
+      <workItem from="1593802983563" duration="955000" />
+      <workItem from="1594158101999" duration="4632000" />
     </task>
     <servers />
   </component>
@@ -107,32 +119,56 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1592937003230" />
-    <state width="986" height="225" key="GridCell.Tab.0.bottom" timestamp="1592942760919">
-      <screen x="0" y="23" width="1536" height="884" />
+    <state width="986" height="223" key="GridCell.Tab.0.bottom" timestamp="1593201725595">
+      <screen x="0" y="23" width="1536" height="877" />
     </state>
     <state width="1494" height="258" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1592937542277" />
-    <state width="986" height="225" key="GridCell.Tab.0.bottom/0.23.1536.884@0.23.1536.884" timestamp="1592942760919" />
-    <state width="986" height="225" key="GridCell.Tab.0.center" timestamp="1592942760919">
-      <screen x="0" y="23" width="1536" height="884" />
+    <state width="986" height="223" key="GridCell.Tab.0.bottom/0.23.1536.877@0.23.1536.877" timestamp="1593201725595" />
+    <state width="986" height="225" key="GridCell.Tab.0.bottom/0.23.1536.882@0.23.1536.882" timestamp="1592968408804" />
+    <state width="986" height="223" key="GridCell.Tab.0.bottom/0.23.1536.883@0.23.1536.883" timestamp="1593106496998" />
+    <state width="986" height="223" key="GridCell.Tab.0.bottom/0.23.1536.884@0.23.1536.884" timestamp="1593106899165" />
+    <state width="986" height="223" key="GridCell.Tab.0.bottom/0.23.1536.886@0.23.1536.886" timestamp="1593106603316" />
+    <state width="986" height="223" key="GridCell.Tab.0.center" timestamp="1593201725595">
+      <screen x="0" y="23" width="1536" height="877" />
     </state>
     <state width="1494" height="258" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1592937542276" />
-    <state width="986" height="225" key="GridCell.Tab.0.center/0.23.1536.884@0.23.1536.884" timestamp="1592942760919" />
-    <state width="986" height="225" key="GridCell.Tab.0.left" timestamp="1592942760919">
-      <screen x="0" y="23" width="1536" height="884" />
+    <state width="986" height="223" key="GridCell.Tab.0.center/0.23.1536.877@0.23.1536.877" timestamp="1593201725595" />
+    <state width="986" height="225" key="GridCell.Tab.0.center/0.23.1536.882@0.23.1536.882" timestamp="1592968408804" />
+    <state width="986" height="223" key="GridCell.Tab.0.center/0.23.1536.883@0.23.1536.883" timestamp="1593106496997" />
+    <state width="986" height="223" key="GridCell.Tab.0.center/0.23.1536.884@0.23.1536.884" timestamp="1593106899164" />
+    <state width="986" height="223" key="GridCell.Tab.0.center/0.23.1536.886@0.23.1536.886" timestamp="1593106603315" />
+    <state width="986" height="223" key="GridCell.Tab.0.left" timestamp="1593201725583">
+      <screen x="0" y="23" width="1536" height="877" />
     </state>
     <state width="1494" height="258" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1592937542275" />
-    <state width="986" height="225" key="GridCell.Tab.0.left/0.23.1536.884@0.23.1536.884" timestamp="1592942760919" />
-    <state width="986" height="225" key="GridCell.Tab.0.right" timestamp="1592942760919">
-      <screen x="0" y="23" width="1536" height="884" />
+    <state width="986" height="223" key="GridCell.Tab.0.left/0.23.1536.877@0.23.1536.877" timestamp="1593201725583" />
+    <state width="986" height="225" key="GridCell.Tab.0.left/0.23.1536.882@0.23.1536.882" timestamp="1592968408804" />
+    <state width="986" height="223" key="GridCell.Tab.0.left/0.23.1536.883@0.23.1536.883" timestamp="1593106496997" />
+    <state width="986" height="223" key="GridCell.Tab.0.left/0.23.1536.884@0.23.1536.884" timestamp="1593106899164" />
+    <state width="986" height="223" key="GridCell.Tab.0.left/0.23.1536.886@0.23.1536.886" timestamp="1593106603315" />
+    <state width="986" height="223" key="GridCell.Tab.0.right" timestamp="1593201725595">
+      <screen x="0" y="23" width="1536" height="877" />
     </state>
     <state width="1494" height="258" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1592937542276" />
-    <state width="986" height="225" key="GridCell.Tab.0.right/0.23.1536.884@0.23.1536.884" timestamp="1592942760919" />
+    <state width="986" height="223" key="GridCell.Tab.0.right/0.23.1536.877@0.23.1536.877" timestamp="1593201725595" />
+    <state width="986" height="225" key="GridCell.Tab.0.right/0.23.1536.882@0.23.1536.882" timestamp="1592968408804" />
+    <state width="986" height="223" key="GridCell.Tab.0.right/0.23.1536.883@0.23.1536.883" timestamp="1593106496997" />
+    <state width="986" height="223" key="GridCell.Tab.0.right/0.23.1536.884@0.23.1536.884" timestamp="1593106899164" />
+    <state width="986" height="223" key="GridCell.Tab.0.right/0.23.1536.886@0.23.1536.886" timestamp="1593106603316" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1592936973672">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1592936973672" />
+    <state x="146" y="183" width="598" height="548" key="find.popup" timestamp="1594158342341">
+      <screen x="0" y="23" width="1536" height="877" />
+    </state>
+    <state x="146" y="183" width="598" height="548" key="find.popup/0.23.1536.877@0.23.1536.877" timestamp="1594158342341" />
+    <state x="179" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1593106147317">
+      <screen x="0" y="23" width="1536" height="883" />
+    </state>
+    <state x="179" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1536.883@0.23.1536.883" timestamp="1593106147317" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/faster_rcnn_test$fasterrcnn_resnet50.coverage" NAME="fasterrcnn_resnet50 Coverage Results" MODIFIED="1592942760912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faster_rcnn_test$fasterrcnn_resnet50.coverage" NAME="fasterrcnn_resnet50 Coverage Results" MODIFIED="1594158351371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

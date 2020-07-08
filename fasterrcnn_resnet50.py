@@ -87,7 +87,7 @@ def object_detection_api(img_path, threshold=0.5, rect_th=3, text_size=1, text_t
     plt.xticks([])
     plt.yticks([])
     head, tail = os.path.split(img_path)
-    plt.savefig(str(tail)[:-4] + "_faster_rcnn.png")
+    plt.savefig("/Users/leonard/Desktop/faster_rcnn_test/tdw/" + str(tail)[:-4] + "_faster_rcnn.png")
     # plt.show()
 
 
